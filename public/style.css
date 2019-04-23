@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  color: white;
+  font-family: arial;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: lightgray;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+ul {
+  justify-content: center;
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+  color: orange;
+  font-family: arial;
+  text-decoration: none;
+}
+
+div {
+  width: 100%;
+}

@@ -4,6 +4,10 @@ require_relative('./models/rps_model.rb')
 
 also_reload('./models/*')
 
+get '/' do
+  erb( :home )
+end
+
 get '/:choice1/:choice2' do
   choice1 = params[:choice1]
   choice2 = params[:choice2]
